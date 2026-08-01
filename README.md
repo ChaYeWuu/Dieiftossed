@@ -78,10 +78,10 @@
 
 ```bash
 # macOS / Linux
-./gradlew build
+./gradlew build clean build
 
 # Windows
-./gradlew.bat build
+./gradlew.bat clean build
 ```
 
 ### 构建产物
