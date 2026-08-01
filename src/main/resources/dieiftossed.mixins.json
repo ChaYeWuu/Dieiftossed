@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "com.chayewuu.dieiftossed.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "minVersion": "0.8",
+    "mixins": [
+        "PlayerDropMixin",
+        "KeepInventoryMixin",
+        "KeepInventoryMixin$RestoreFromMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}

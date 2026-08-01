@@ -1,0 +1,20 @@
+{
+    "nailongbaobao": {
+        "category": "player",
+        "sounds": [
+            {
+                "name": "dieiftossed:nailongbaobao",
+                "stream": false
+            }
+        ]
+    },
+    "ea": {
+        "category": "player",
+        "sounds": [
+            {
+                "name": "dieiftossed:ea",
+                "stream": false
+            }
+        ]
+    }
+}

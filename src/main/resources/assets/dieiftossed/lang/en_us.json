@@ -1,0 +1,8 @@
+{
+    "gamerule.dieiftossed.dieIfTossedDropPrompt": "Drop Death Prompt?",
+    "dieiftossed.drop.title": "You dropped an item! Die or not?",
+    "dieiftossed.death.title": "Haha you really died? But do you really want to die?",
+    "dieiftossed.button.die": "DIE!!!",
+    "dieiftossed.button.spare": "No way! I don't wanna die!",
+    "dieiftossed.button.fate": "Leave it to fate"
+}

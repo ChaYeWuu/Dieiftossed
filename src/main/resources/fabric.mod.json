@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "id": "dieiftossed",
+    "version": "${version}",
+    "name": "Die If Tossed",
+    "description": "当你扔掉物品时，你死不死？当你真死了，你真的想死吗？一个关于死亡选择的趣味 Fabric 模组。",
+    "authors": [
+        "ChaYeWuu"
+    ],
+    "contact": {
+        "homepage": "https://github.com/ChaYeWuu/dieiftossed",
+        "sources": "https://github.com/ChaYeWuu/dieiftossed"
+    },
+    "license": "MIT",
+    "icon": "assets/dieiftossed/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.chayewuu.dieiftossed.DieIfTossed"
+        ],
+        "client": [
+            "com.chayewuu.dieiftossed.client.DieIfTossedClient"
+        ]
+    },
+    "mixins": [
+        "dieiftossed.mixins.json",
+        {
+            "config": "dieiftossed.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.3",
+        "minecraft": "~26.2",
+        "java": ">=25",
+        "fabric-api": "*"
+    }
+}

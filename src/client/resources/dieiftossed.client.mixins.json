@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "com.chayewuu.dieiftossed.client.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "minVersion": "0.8",
+    "mixins": [],
+    "client": [
+        "GameRuleEntryMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
