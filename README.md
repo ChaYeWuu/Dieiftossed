@@ -1,10 +1,7 @@
 # Die If Tossed
 
-> 扔东西就问你死不死 —— 一个关于死亡选择的趣味 Fabric 模组。
-
-![Minecraft 26.2](https://img.shields.io/badge/Minecraft-26.2-6c9e47)
+> 死亡掉落不？ —— 一个趣味 Fabric 模组。
 ![Fabric](https://img.shields.io/badge/Fabric-0.19.3-b8467a)
-![Java](https://img.shields.io/badge/Java-25-f89820)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 **Die If Tossed**（dieiftossed）是一个面向 Minecraft 26.2（Fabric）的轻量玩法模组。它在两个关键时刻向玩家抛出一个灵魂拷问：
