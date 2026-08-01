@@ -40,6 +40,14 @@ processResources {
     }
 }
 
+processClientResources {
+}
+
+// 每次执行 build 前自动清理 build 目录，确保 jar 和资源始终为最新
+// （Gradle 增量检测对图片等资源内容变化识别不可靠）
+build.dependsOn clean
+build.mustRunAfter clean
+
 tasks.withType(JavaCompile).configureEach {
     it.options.release = 25
 }
